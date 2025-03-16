@@ -1,7 +1,7 @@
 import React from 'react'
 
 const pageDushboard = () => {
-  return <div>pageDushboard</div>
+  return <div>Dushboard</div>
 }
 
 export default pageDushboard
