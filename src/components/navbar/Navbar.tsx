@@ -39,7 +39,7 @@ const Navbar: FC = () => {
 
       {/* Мобильное модальное меню */}
       <div
-        className={`fixed top-0 left-0 w-full h-full bg-black/70 flex items-center justify-center transition-transform ${
+        className={`fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-10 transition-transform backdrop-blur-sm ${
           isOpen ? 'translate-y-0' : 'translate-y-full'
         } md:hidden`}>
         <div className='bg-white dark:bg-gray-800 p-6 rounded-lg w-4/5 max-w-sm shadow-lg relative'>
