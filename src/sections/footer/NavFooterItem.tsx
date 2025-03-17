@@ -18,7 +18,7 @@ const NavFooterItem: FC<INavItem> = ({ item }) => {
         href={item.link}
         className={cn(
           'text-base font-medium transition duration-100 hover:text-teal-600 hover:underline',
-          pathname === item.link ? 'text-teal-600' : ' text-gray-600',
+          pathname === item.link ? 'text-teal-600' : ' text-gray-500 dark:text-white/70',
         )}>
         {item.name}
       </Link>
