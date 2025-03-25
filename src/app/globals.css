@@ -13,8 +13,8 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
-  --color-accent: #ff0080;
-  --color-secondary: #00bba7;
+  --color-accent: #00bba7;
+  --color-secondary: #ff0080;
 }
 
 @media (prefers-color-scheme: dark) {
