@@ -4,7 +4,7 @@ import { FC } from 'react'
 const IntroLeft: FC = () => {
   return (
     <div className='flex flex-col justify-between w-2/3'>
-      <h1 className='text-4xl font-bold text-accent sm:text-5xl md:mb-8 md:text-5xl'>
+      <h1 className=' text-4xl font-bold text-accent sm:text-5xl md:mb-8 md:text-5xl drop-shadow-lg '>
         Уборка квартир <br /> и домов В Алматы
       </h1>
       <div className='grid grid-cols-2 gap-4'>
@@ -16,9 +16,6 @@ const IntroLeft: FC = () => {
             viewBox='0 0 24 24'
             fill='none'
             stroke='currentColor'
-            stroke-width={1}
-            stroke-linecap='round'
-            stroke-linejoin='round'
             className='size-15 text-accent'>
             <path d='M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15' />
             <path d='M11 12 5.12 2.2' />
