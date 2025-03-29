@@ -6,15 +6,15 @@ export const menu: IMenuItem[] = [
     link: '/',
   },
   {
-    name: 'Услуги',
-    link: '/services',
+    name: 'Калькулятор',
+    link: '#calculator',
   },
   {
     name: 'Отзывы',
-    link: '/reviews',
+    link: '#reviews',
   },
   {
     name: 'Контакты',
-    link: '/contacts',
+    link: '#contacts',
   },
 ]

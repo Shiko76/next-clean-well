@@ -18,8 +18,8 @@ const NavItem: FC<INavItem> = ({ item, onClick }) => {
       <Link
         href={item.link}
         className={cn(
-          'text-base font-medium transition duration-100 hover:text-teal-600 hover:underline',
-          pathname === item.link ? 'text-teal-600' : ' text-gray-600 dark:text-white/70',
+          ' font-medium transition duration-100 hover:text-accent hover:underline',
+          pathname === item.link ? 'text-accent' : ' text-gray-700 dark:text-white/70',
         )}
         onClick={onClick}>
         {item.name}

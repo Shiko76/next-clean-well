@@ -2,7 +2,7 @@ import { IReviewItem } from '@/types/review.interface'
 
 export const reviews: IReviewItem[] = [
   {
-    name: 'Екатерина',
+    name: 'Ару',
     description:
       'Заказывала генеральную уборку после ремонта – квартира стала идеально чистой! Помыли окна, люстру, кухонные шкафы и даже вынесли весь строительный мусор. Спасибо!',
     image: '/reviews/37.jpg',
@@ -14,7 +14,7 @@ export const reviews: IReviewItem[] = [
     image: '/reviews/31.jpg',
   },
   {
-    name: 'Марина',
+    name: 'Акгуль',
     description:
       'Пользуюсь услугами этой компании регулярно. Берут ключи, убирают, привозят обратно – очень удобно! После влажной уборки в квартире всегда свежо и чисто.',
     image: '/reviews/83.jpg',

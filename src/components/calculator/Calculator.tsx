@@ -50,7 +50,9 @@ const CleaningCalculator: React.FC = () => {
   }`
 
   return (
-    <div className='max-w-full lg:w-7xl mx-auto p-6 mb-8 md:mb-16'>
+    <div
+      className='max-w-full lg:w-7xl mx-auto p-6 mb-8 md:mb-16'
+      id='calculator'>
       <h2 className='text-3xl font-bold mb-4 text-center'>Калькулятор уборки</h2>
 
       {/* Шаг 1: Выбор типа помещения */}
@@ -60,8 +62,8 @@ const CleaningCalculator: React.FC = () => {
           <button
             key={type}
             onClick={() => setRoomType(type as RoomType)}
-            className={`p-2 rounded-lg border-3 transition hover:opacity-70 ${
-              roomType === type ? 'border-green-500' : 'border-gray-300'
+            className={`p-2 rounded-lg border-2 transition hover:opacity-70 ${
+              roomType === type ? 'border-accent' : 'border-gray-300'
             } flex flex-col items-center transition`}>
             <Image
               src={roomIcons[type as RoomType]}
@@ -82,8 +84,8 @@ const CleaningCalculator: React.FC = () => {
           <button
             key={type}
             onClick={() => setCleaningType(type as CleaningType)}
-            className={`p-2 rounded-lg border-3 transition hover:opacity-70 ${
-              cleaningType === type ? 'border-green-500' : 'border-gray-300'
+            className={`p-2 rounded-lg border-2 transition hover:opacity-70 ${
+              cleaningType === type ? 'border-accent' : 'border-gray-300'
             } flex flex-col items-center transition`}>
             <Image
               src={cleaningIcons[type as CleaningType]}

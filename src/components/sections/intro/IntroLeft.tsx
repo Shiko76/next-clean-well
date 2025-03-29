@@ -1,11 +1,19 @@
+import WriteText from '@/app/ui/text/writeText'
 import Image from 'next/image'
 import { FC } from 'react'
+
+const phrases = ['квартир', 'офисов', 'катеджей', 'домов', 'помещений']
 
 const IntroLeft: FC = () => {
   return (
     <div className='flex flex-col justify-between w-2/3'>
       <h1 className=' text-4xl font-bold text-accent sm:text-5xl md:mb-8 md:text-5xl drop-shadow-lg '>
-        Уборка квартир <br /> и домов В Алматы
+        Уборка{' '}
+        <WriteText
+          data={phrases}
+          className='text-secondary '
+        />{' '}
+        в Алматы
       </h1>
       <div className='grid grid-cols-2 gap-4'>
         <div className='flex justify-start items-center bg-white rounded-xl p-2'>

@@ -31,7 +31,7 @@ const IntroHeader: FC = () => {
         xmlns='http://www.w3.org/2000/svg'>
         <path
           d='M122 22.8261L0 0V120H1460V0L1338 22.8261C1217 44.1304 973 88.2609 730 88.2609C487 88.2609 243 44.1304 122 22.8261Z'
-          fill='#ffffff'></path>
+          fill='#fff'></path>
       </svg>
     </section>
   )

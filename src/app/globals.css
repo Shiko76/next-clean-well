@@ -14,10 +14,10 @@
   --font-mono: var(--font-geist-mono);
 
   --color-accent: #00bba7;
-  --color-secondary: #ff0080;
+  --color-secondary: #ff6700;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;

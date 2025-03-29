@@ -2,15 +2,24 @@ import { IMenuItem } from '@/types/menu.interface'
 
 export const footerMenu: IMenuItem[] = [
   {
-    name: 'About',
-    link: '/about',
+    name: 'Главная',
+    link: '/',
   },
   {
-    name: 'Project',
-    link: '/project',
+    name: 'Услуги',
+    link: '#services',
+  },
+
+  {
+    name: 'Калькулятор',
+    link: '#calculator',
   },
   {
-    name: 'Contacts',
+    name: 'Отзывы',
+    link: '#reviews',
+  },
+  {
+    name: 'Контакты',
     link: '/contacts',
   },
 ]
