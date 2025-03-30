@@ -36,5 +36,5 @@ export default function WriteText({ data, className }: WriteTextProps) {
     return () => clearTimeout(timeout)
   }, [currentIndex, currentPos, data])
 
-  return <span className={className ? className : ''}>{text}</span>
+  return <span className={className ? className : ' '}>{text}</span>
 }

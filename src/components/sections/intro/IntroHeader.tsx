@@ -1,24 +1,38 @@
 import { FC } from 'react'
 import Image from 'next/image'
-import IntroLeft from './IntroLeft'
-import IntroRight from './IntroRight'
+import WriteText from '@/app/ui/text/writeText'
+
+const phrases = ['квартир', 'офисов', 'катеджей', 'домов', 'помещений']
 
 const IntroHeader: FC = () => {
   return (
     <section className='relative mb-16'>
-      <div className=''>
-        <Image
-          src='/bg-header/bg-header-680.jpg'
-          alt='image'
-          width={1920}
-          height={480}
-          className='object-cover'
-        />
-      </div>
+      <Image
+        src='/bg-header/bg-header-680.jpg'
+        alt='image'
+        width={1920}
+        height={480}
+        className='object-cover sepia-0 brightness-50'
+      />
+
       <div className='absolute top-0 left-0 w-full h-full '>
-        <div className='flex items-start mt-8 md:mt-16 justify-between mx-auto p-4 lg:max-w-7xl h-full'>
-          <IntroLeft />
-          <IntroRight />
+        <div className='flex flex-col items-center justify-start mx-auto lg:mt-8 lg:max-w-7xl h-full'>
+          <Image
+            src='/logo/logo-intro.png'
+            alt='image'
+            width={1100}
+            height={480}
+            className=' object-cover md:mr-20 px-8 py-2'
+          />
+          <div className='flex items-center justify-center sm:justify-start w-78 '>
+            <div className='text-md font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg mr-4'> Уборка </div>
+            <WriteText
+              data={phrases}
+              className=' text-md text-secondary font-bold sm:text-4xl md:text-5xl drop-shadow-lg'
+            />
+          </div>
+
+          <div className='text-center text-md font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg w-78'> в Алматы</div>
         </div>
       </div>
       <svg

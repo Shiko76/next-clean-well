@@ -8,8 +8,17 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <footer className='flex flex-col items-center justify-center w-full mt-8 bg-black text-white'>
-      <div className='flex justify-between items-Start w-full gap-4 mx-auto max-w-2xl lg:max-w-7xl p-10'>
-        <div className='flex flex-col p-4'>
+      <div className=' sm:hidden  p-6'>
+        <Image
+          src='/logo/logo_clean_well_q.png'
+          alt='logo'
+          className=''
+          width={190}
+          height={120}
+        />
+      </div>
+      <div className='flex justify-between items-Start w-full gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
+        <div className='hidden sm:flex flex-col p-4'>
           <Image
             src='/logo/logo_clean_well_q.png'
             alt='logo'

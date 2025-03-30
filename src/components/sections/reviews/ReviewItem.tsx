@@ -9,7 +9,7 @@ interface IReviews {
 
 const ReviewItem: FC<IReviews> = ({ item }) => {
   return (
-    <div className='flex flex-col justify-between p-4 border border-accent rounded-se-4xl rounded-bl-4xl md:max-w-[300px] shadow-accent/50 shadow-md'>
+    <div className='flex flex-col justify-between p-4 border-1 border-accent rounded-se-3xl rounded-bl-3xl md:max-w-[300px] shadow-accent/50 shadow-sm'>
       <p className='text-gray-600 mb-4'>{item.description}</p>
       <div className='flex justify-between items-center'>
         <Image

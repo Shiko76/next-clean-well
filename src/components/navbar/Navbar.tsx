@@ -9,7 +9,7 @@ const Navbar: FC = () => {
   return (
     <>
       {/* Десктопное меню */}
-      <nav className='hidden gap-6 md:flex'>
+      <nav className='hidden gap-3 md:flex'>
         {menu.map(item => (
           <NavItem
             key={item.link}
@@ -20,15 +20,15 @@ const Navbar: FC = () => {
 
       {/* Кнопка бургера */}
       <button
-        className='md:hidden'
+        className='md:hidden '
         onClick={() => setIsOpen(true)}>
         <svg
           xmlns='http://www.w3.org/2000/svg'
           fill='none'
           viewBox='0 0 24 24'
-          strokeWidth={1.5}
+          strokeWidth={1}
           stroke='currentColor'
-          className='size-7'>
+          className='size-8 '>
           <path
             strokeLinecap='round'
             strokeLinejoin='round'
