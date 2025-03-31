@@ -3,7 +3,7 @@ import { FC } from 'react'
 const Exellence: FC = () => {
   return (
     <section
-      className='mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl my-8 '
+      className='mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl my-8 text-black '
       id='excellence'>
       <h2 className='text-3xl font-bold mb-16 text-center'>Наше примущество</h2>
       <div className='flex flex-col justify-between '>
