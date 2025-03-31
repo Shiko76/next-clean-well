@@ -25,7 +25,7 @@ const Exellence: FC = () => {
             </svg>
             <div className='md:w-2/3'>
               <h3 className='text-md sm:text-xl font-bold'>Быстро</h3>
-              <p className='text-sm'>
+              <p className='text-sm text-black '>
                 Мы работаем быстро и качественно выполняем заказы в кратчайшие сроки. Мы гарантируем, что заказ будет выполнен в срок.
               </p>
             </div>
@@ -45,7 +45,7 @@ const Exellence: FC = () => {
             </svg>
             <div className='md:w-2/3'>
               <h3 className='text-md sm:text-xl font-bold'>Оборудование</h3>
-              <p className='text-sm'>
+              <p className='text-sm text-black '>
                 Используем современное оборудование и технологии согласно международным стандартам. Которое постоянно обновляется.
               </p>
             </div>
@@ -67,7 +67,7 @@ const Exellence: FC = () => {
             </svg>
             <div className='md:w-2/3'>
               <h3 className='text-md sm:text-xl font-bold'>Опыт</h3>
-              <p className='text-sm'>
+              <p className='text-sm text-black '>
                 Более 1000 выполненых заказов и более 10 лет опыта. Мы гарантируем качество. Наши постоянные клиенты гарантия высокого
                 уровня.
               </p>
@@ -90,7 +90,7 @@ const Exellence: FC = () => {
             </svg>
             <div className='md:w-2/3'>
               <h3 className='text-md sm:text-xl font-bold'>Сотрудники</h3>
-              <p className='text-sm'>
+              <p className='text-sm text-black '>
                 Наши сотрудники профессионалы своего дела и всегда готовы помочь вам и предложить лучшие решения для вашей уборки.
               </p>
             </div>
