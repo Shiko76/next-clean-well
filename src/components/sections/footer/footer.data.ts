@@ -7,19 +7,19 @@ export const footerMenu: IMenuItem[] = [
   },
   {
     name: 'Услуги',
-    link: '#services',
+    link: '/#services',
   },
 
   {
     name: 'Калькулятор',
-    link: '#calculator',
+    link: '/calculator',
   },
   {
     name: 'Отзывы',
-    link: '#reviews',
+    link: '/#reviews',
   },
   {
     name: 'Контакты',
-    link: '/contacts',
+    link: '/#contacts',
   },
 ]

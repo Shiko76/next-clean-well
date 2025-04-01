@@ -7,14 +7,14 @@ export const menu: IMenuItem[] = [
   },
   {
     name: 'Калькулятор',
-    link: '#calculator',
+    link: '/calculator',
   },
   {
     name: 'Отзывы',
-    link: '#reviews',
+    link: '/#reviews',
   },
   {
     name: 'Контакты',
-    link: '#contacts',
+    link: '/#contacts',
   },
 ]

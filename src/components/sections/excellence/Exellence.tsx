@@ -5,7 +5,7 @@ const Exellence: FC = () => {
     <section
       className='mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl my-8 text-black '
       id='excellence'>
-      <h2 className='text-3xl font-bold mb-16 text-center'>Наше примущество</h2>
+      <h2 className='text-3xl font-bold mb-16 text-center'>Наше преимущество</h2>
       <div className='flex flex-col justify-between '>
         <div className='grid grid-cols-2 gap-4 lg:gap-8 '>
           <div className='flex md:flex-row flex-col justify-between items-center w-full border-1 border-accent  rounded-tl-3xl rounded-br-3xl  shadow-accent/50 shadow-sm p-2'>

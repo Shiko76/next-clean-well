@@ -11,7 +11,7 @@ const Main = () => {
       <IntroHeader />
       <Maintenance />
       <Exellence />
-      <CleaningCalculator />
+      <div>Калькулятор уборки в Алматы</div>
       <Review />
     </main>
   )
