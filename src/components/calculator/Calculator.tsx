@@ -11,8 +11,8 @@ type ExtraServiceType = keyof typeof prices.extraServices
 
 const roomIcons: Record<RoomType, string> = {
   Квартира: '/roomTypes/appartment.webp',
-  Коттедж: '/roomTypes/cottage.webp',
-  Дом: '/roomTypes/home.webp',
+  Коттедж: '/roomTypes/cottage.jpg',
+  Дом: '/roomTypes/home.jpg',
   Офис: '/roomTypes/office.webp',
   Помещение: '/roomTypes/premises.webp',
 }
