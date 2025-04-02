@@ -10,14 +10,14 @@ const Header = () => {
           <Image
             src='/logo/logo_clean_well_2.png'
             alt='clean well'
-            width={300}
+            width={200}
             height={120}
           />
         </Link>
 
         <Link
           href='tel:+77017612936'
-          className='flex items-center justify-center gap-2 w-full place-items-end'>
+          className='flex items-center justify-center gap-2  place-items-end'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
             fill='none'

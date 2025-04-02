@@ -5,6 +5,8 @@ import Review from '../reviews/Review'
 import IntroHeader from '../intro/IntroHeader'
 import Exellence from '../excellence/Exellence'
 import Faq from '../faq/Faq'
+import Call from '../call/Call'
+import Map from '../map/Map'
 
 const Main = () => {
   return (
@@ -13,8 +15,10 @@ const Main = () => {
       <Maintenance />
       <Exellence />
       {/* <div>Калькулятор уборки в Алматы</div> */}
+      <Call />
       <Review />
       <Faq />
+      <Map />
     </main>
   )
 }
