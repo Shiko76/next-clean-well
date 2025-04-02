@@ -17,8 +17,8 @@ const Footer = () => {
           height={120}
         />
       </div>
-      <div className='flex justify-between items-Start w-full gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
-        <div className='hidden sm:flex flex-col p-4'>
+      <div className='grid grid-cols-1 md:grid-cols-3 w-full  gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
+        <div className='hidden sm:flex flex-col p-4 '>
           <Image
             src='/logo/logo_clean_well_q.png'
             alt='logo'
@@ -28,7 +28,7 @@ const Footer = () => {
           />
         </div>
 
-        <nav className='flex flex-col items-left flex-wrap gap-2 p-4'>
+        <nav className='flex flex-col items-left flex-wrap gap-2 p-4 '>
           <h3 className='mb-2 text-lg font-semibold'>Навигация</h3>
           {footerMenu.map(item => (
             <NavFooterItem
@@ -37,7 +37,7 @@ const Footer = () => {
             />
           ))}
         </nav>
-        <div className='flex flex-col items-left flex-wrap gap-1 p-4'>
+        <div className='flex flex-col items-start flex-wrap gap-1 p-4 '>
           <h3 className='mb-2 text-lg font-semibold'>Контакты</h3>
           <p className='flex gap-2 items-center text-base'>
             <svg

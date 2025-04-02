@@ -10,8 +10,8 @@ const Header = () => {
           <Image
             src='/logo/logo_clean_well_2.png'
             alt='clean well'
-            width={200}
-            height={120}
+            width={180}
+            height={100}
           />
         </Link>
 
