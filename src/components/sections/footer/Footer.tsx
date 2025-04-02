@@ -17,7 +17,7 @@ const Footer = () => {
           height={120}
         />
       </div>
-      <div className='grid grid-cols-1 md:grid-cols-3 w-full  gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
+      <div className='flex justify-between md:grid md:grid-cols-3 w-full gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
         <div className='hidden sm:flex flex-col p-4 '>
           <Image
             src='/logo/logo_clean_well_q.png'

@@ -11,7 +11,7 @@ const Header = () => {
             src='/logo/logo_clean_well_2.png'
             alt='clean well'
             width={180}
-            height={100}
+            height={50}
           />
         </Link>
 
