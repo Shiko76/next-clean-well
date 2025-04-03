@@ -13,7 +13,7 @@ const IntroHeader: FC = () => {
           alt='image'
           width={1920}
           height={480}
-          className='object-cover sepia-0 brightness-90 animate-[pulse-bg_10s_infinite]'
+          className='object-cover sepia-0 brightness-90 animate-[pulse-bg_12s_infinite]'
         />
       </div>
 
@@ -24,17 +24,17 @@ const IntroHeader: FC = () => {
             alt='image'
             width={1100}
             height={480}
-            className=' object-cover md:mr-20 px-8 py-2 '
+            className=' object-cover md:mr-20 px-8 pt-2 md:pt-6 '
           />
-          <div className='flex items-center justify-center sm:justify-start w-78 '>
-            <div className='text-md font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg mr-4'> Уборка </div>
+          <div className='flex items-center justify-center sm:justify-start w-80 '>
+            <div className='text-xl font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg  mr-4'> Уборка </div>
             <WriteText
               data={phrases}
-              className=' text-md text-secondary font-bold sm:text-4xl md:text-5xl drop-shadow-lg'
+              className=' text-xl text-secondary font-bold sm:text-4xl md:text-5xl drop-shadow-lg'
             />
           </div>
 
-          <div className='text-center text-md font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg w-78'> в Алматы</div>
+          <div className='text-center text-xl font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg w-78'> в Алматы</div>
         </div>
       </div>
       <svg

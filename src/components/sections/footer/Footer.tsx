@@ -12,19 +12,19 @@ const Footer = () => {
         <Image
           src='/logo/logo_clean_well_q.png'
           alt='logo'
-          className=''
           width={190}
-          height={120}
+          height={141}
+          className='object-contain'
         />
       </div>
-      <div className='flex justify-between md:grid md:grid-cols-3 w-full gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
+      <div className='flex flex-wrap justify-between md:grid md:grid-cols-3 w-full gap-4 mx-auto max-w-2xl lg:max-w-7xl p-4'>
         <div className='hidden sm:flex flex-col p-4 '>
           <Image
             src='/logo/logo_clean_well_q.png'
             alt='logo'
-            className=''
+            className='object-contain'
             width={190}
-            height={120}
+            height={141}
           />
         </div>
 

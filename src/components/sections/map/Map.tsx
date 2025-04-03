@@ -29,7 +29,8 @@ const Map: FC = () => {
             ref={mapRef}
             src='https://yandex.ru/map-widget/v1/?um=constructor%3Ae361e1b9261998f73d91846190c5e858cb88ba34a8fa21e972ff4000e52f0d77&amp;source=constructor'
             width='100%'
-            height='400'></iframe>
+            height='400'
+            sandbox='allow-scripts allow-same-origin'></iframe>
         </div>
       </div>
     </section>
