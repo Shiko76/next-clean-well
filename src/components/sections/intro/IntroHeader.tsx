@@ -7,13 +7,15 @@ const phrases = ['квартир', 'офисов', 'катеджей', 'домо
 const IntroHeader: FC = () => {
   return (
     <section className='relative mb-16'>
-      <Image
-        src='/bg-header/bg-header-680.jpg'
-        alt='image'
-        width={1920}
-        height={480}
-        className='object-cover sepia-0 brightness-90'
-      />
+      <div className='w-full overflow-hidden'>
+        <Image
+          src='/bg-header/bg-header-680.jpg'
+          alt='image'
+          width={1920}
+          height={480}
+          className='object-cover sepia-0 brightness-90 animate-[pulse-bg_10s_infinite]'
+        />
+      </div>
 
       <div className='absolute top-0 left-0 w-full h-full '>
         <div className='flex flex-col items-center justify-start mx-auto lg:mt-8 lg:max-w-7xl h-full'>
