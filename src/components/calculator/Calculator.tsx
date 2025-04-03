@@ -45,7 +45,9 @@ const CleaningCalculator: React.FC = () => {
     setTotalPrice(basePrice + extraServicesCost)
   }
 
-  const whatsappLink = `https://api.whatsapp.com/send/?phone=77019900933&text=Я%20хочу%20заказать%20уборку%20*${roomType}*%20с%20типом%20уборки%20*${cleaningType}*%20количество%20*${squareMeters}%20м²*${
+  const whatsappLink = `https://api.whatsapp.com/send/?phone=${
+    process.env.NEXT_PUBLIC_PHONE_SHORT
+  }&text=Я%20хочу%20заказать%20уборку%20*${roomType}*%20с%20типом%20уборки%20*${cleaningType}*%20количество%20*${squareMeters}%20м²*${
     extraServices.length > 0 ? `,%20дополнительные%20услуги:%20${extraServices.join(', ')}` : ''
   }`
 

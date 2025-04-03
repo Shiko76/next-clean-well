@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className='flex flex-col items-center justify-center w-full mt-8 bg-black text-white'>
+    <footer className='flex flex-col items-center justify-center w-full bg-black text-white'>
       <div className=' sm:hidden  p-6'>
         <Image
           src='/logo/logo_clean_well_q.png'
@@ -55,9 +55,9 @@ const Footer = () => {
             </svg>
             :
             <Link
-              href='tel:+77019900933'
+              href={`tel:+${process.env.NEXT_PUBLIC_PHONE}`}
               className='transition duration-100 hover:scale-110 hover:text-accent ml-2'>
-              +7(701)761-29-36
+              {process.env.NEXT_PUBLIC_PHONE}
             </Link>
           </p>
           <p className='flex gap-2 items-center text-base'>
@@ -74,7 +74,7 @@ const Footer = () => {
                 d='M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75'
               />
             </svg>
-            : <span className='ml-2'>info@cleanwell.kz</span>
+            : <span className='ml-2'>{process.env.NEXT_PUBLIC_EMAIL}</span>
           </p>
           <p className='flex gap-2 items-center text-base'>
             <svg
@@ -95,13 +95,13 @@ const Footer = () => {
                 d='M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z'
               />
             </svg>
-            : <span className='ml-2'>г. Алматы </span>
+            : <span className='ml-2'>{process.env.NEXT_PUBLIC_ADDRESS}</span>
           </p>
 
           <h3 className='mb-1 mt-2 text-lg font-semibold'>Социальные сети</h3>
           <div className='flex gap-2'>
             <SocialIcon
-              url='https://www.instagram.com/'
+              url={process.env.NEXT_PUBLIC_LINK_INSTAGRAM}
               network='instagram'
               fgColor='white'
               bgColor='transparent'
@@ -109,7 +109,7 @@ const Footer = () => {
             />
 
             <SocialIcon
-              url='https://www.instagram.com/'
+              url={process.env.NEXT_PUBLIC_LINK_TELEGRAM}
               network='telegram'
               fgColor='white'
               bgColor='transparent'

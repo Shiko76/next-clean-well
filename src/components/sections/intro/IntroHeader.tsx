@@ -12,7 +12,7 @@ const IntroHeader: FC = () => {
         alt='image'
         width={1920}
         height={480}
-        className='object-cover sepia-0 brightness-50'
+        className='object-cover sepia-0 brightness-90'
       />
 
       <div className='absolute top-0 left-0 w-full h-full '>
@@ -22,7 +22,7 @@ const IntroHeader: FC = () => {
             alt='image'
             width={1100}
             height={480}
-            className=' object-cover md:mr-20 px-8 py-2'
+            className=' object-cover md:mr-20 px-8 py-2 '
           />
           <div className='flex items-center justify-center sm:justify-start w-78 '>
             <div className='text-md font-bold text-accent sm:text-4xl md:text-5xl drop-shadow-lg mr-4'> Уборка </div>
