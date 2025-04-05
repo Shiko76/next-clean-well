@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Уборка любой сложности",
+    "tagline": "Уборка офисов",
+    "image": "/sliders/slider-01/image1.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "подробнее",
+        "link": "#",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Вы останетесь довольны",
+    "tagline": "Уборка квартир и домов",
+    "image": "/sliders/slider-01/image2.jpg",
+    "buttons": [
+      {
+        "id": 1,
+        "text": "подробнее",
+        "link": "#",
+        "type": "btn-dark btn-circle"
+      }
+    ]
+  }
+]

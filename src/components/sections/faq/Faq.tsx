@@ -19,7 +19,7 @@ const Faq: FC = () => {
       <p className='mt-8 text-gray-600'>
         Если вы не нашли свой вопрос{' '}
         <Link
-          href='#'
+          href={`https://api.whatsapp.com/send/?phone=${process.env.NEXT_PUBLIC_PHONE_SHORT}`}
           className='text-accent hover:underline'>
           напишите нам в WhatApp
         </Link>
