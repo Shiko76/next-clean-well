@@ -16,7 +16,7 @@ const Main = () => {
       <Maintenance />
       <Exellence />
       {/* <div>Калькулятор уборки в Алматы</div> */}
-      <Call />
+      {/* <Call /> */}
       <Review />
       <Slider data={dataSlider} />
       <Faq />
