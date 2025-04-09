@@ -45,9 +45,7 @@ const Exellence: FC = () => {
             </svg>
             <div className='md:w-2/3'>
               <h3 className='text-md sm:text-xl font-bold'>Оборудование</h3>
-              <p className='text-sm text-black '>
-                Используем современное оборудование и технологии согласно международным стандартам. Которое постоянно обновляется.
-              </p>
+              <p className='text-sm text-black '>Используем современное оборудование и технологии согласно международным стандартам.</p>
             </div>
           </div>
           <div className='flex md:flex-row flex-col justify-between items-center w-full border-1 border-accent  rounded-tl-3xl rounded-br-3xl  shadow-accent/50 shadow-sm p-2'>
@@ -68,7 +66,7 @@ const Exellence: FC = () => {
             <div className='md:w-2/3'>
               <h3 className='text-md sm:text-xl font-bold'>Опыт</h3>
               <p className='text-sm text-black '>
-                Более 1000 выполненых заказов и более 10 лет опыта. Мы гарантируем качество. Наши постоянные клиенты гарантия высокого
+                Более 1000 выполненых заказов и более 5 лет опыта. Мы гарантируем качество. Наши постоянные клиенты гарантия высокого
                 уровня.
               </p>
             </div>

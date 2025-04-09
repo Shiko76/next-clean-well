@@ -27,7 +27,7 @@ interface SliderProps {
 
 const Slider: React.FC<SliderProps> = ({ data }) => {
   return (
-    <section className='w-full min-h-[200px] h-[60vh] sm:h-[400px]'>
+    <section className='w-full min-h-[200px] h-[60vh] sm:h-[400px] my-8'>
       <div className='h-full'>
         <ul className='h-full w-full'>
           <Swiper

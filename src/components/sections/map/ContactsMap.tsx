@@ -22,7 +22,9 @@ const ContactsMap: FC = () => {
         </div>
         <div className='mb-8 flex flex-col mt-6 md:mt-10 '>
           <div className='uppercase text-xs text-gray-600'>Телефон:</div>
-          <div className='mb-2 md:mb-6 font-bold'>{process.env.NEXT_PUBLIC_PHONE}</div>
+          <div className='mb-2 md:mb-6 font-bold'>
+            <Link href={`tel:+${process.env.NEXT_PUBLIC_PHONE_SHORT}`}>{process.env.NEXT_PUBLIC_PHONE}</Link>
+          </div>
           <div className='uppercase text-xs text-gray-600'>Email:</div>
           <div className='font-bold'>{process.env.NEXT_PUBLIC_EMAIL}</div>
         </div>

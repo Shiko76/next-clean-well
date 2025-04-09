@@ -6,11 +6,6 @@ export const footerMenu: IMenuItem[] = [
     link: '/',
   },
   {
-    name: 'Услуги',
-    link: '/#services',
-  },
-
-  {
     name: 'Калькулятор',
     link: '/calculator',
   },

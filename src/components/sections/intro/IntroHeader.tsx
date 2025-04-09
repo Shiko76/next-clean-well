@@ -13,7 +13,7 @@ const IntroHeader: FC = () => {
           alt='image'
           width={1920}
           height={480}
-          className='object-cover sepia-0 brightness-90 animate-[pulse-bg_12s_infinite]'
+          className='object-cover w-full sepia-0 brightness-90 animate-[pulse-bg_12s_infinite]'
         />
       </div>
 
