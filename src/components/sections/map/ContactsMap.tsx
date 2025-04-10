@@ -4,7 +4,7 @@ import { FC } from 'react'
 const ContactsMap: FC = () => {
   return (
     <div
-      className='order-1 md:order-2 px-16 pt-8 lg:7xl w-full'
+      className='order-1 md:order-2 px-16 pt-8 lg:7xl w-full text-black'
       id='contacts'>
       <h2 className='text-2xl font-bold py-2 md:py-4'> Адрес компании</h2>
       <p className='text-gray-600'>Мы рады ответить на все ваши вопросы.</p>

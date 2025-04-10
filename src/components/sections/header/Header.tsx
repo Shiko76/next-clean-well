@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className='border-b border-b-gray-300 w-full bg-white dark:bg-black dark:text-white'>
+    <header className='border-b border-b-gray-300 w-full bg-white text-black'>
       <div className='flex items-center justify-between mx-auto px-4 py-2 lg:max-w-7xl'>
         <Link href='/'>
           <Image
@@ -40,3 +40,4 @@ const Header = () => {
 }
 
 export default Header
+

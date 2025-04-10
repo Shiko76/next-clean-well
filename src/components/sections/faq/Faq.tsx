@@ -13,7 +13,7 @@ const Faq: FC = () => {
 
   return (
     <section
-      className='mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl md:mt-8'
+      className='mx-auto max-w-2xl px-4 sm:pb-6 lg:max-w-7xl md:mt-8 text-black'
       id='faq'>
       <h2 className='mb-4 text-2xl w-full font-bold  sm:text-3xl md:mb-8  text-center'>Остались вопросы? У нас есть ответы.</h2>
       <p className='mt-8 text-gray-600'>
