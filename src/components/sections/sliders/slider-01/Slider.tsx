@@ -54,11 +54,11 @@ const Slider: React.FC<SliderProps> = ({ data }) => {
                   <div>
                     {tagline && <p className='text-sm sm:text-xl lg:text-3xl font-semibold text-white uppercase'>{tagline}</p>}
                     <p className='text-2xl sm:text-4xl lg:text-5xl font-bold text-white'>{title}</p>
-                    {buttons.length > 0 && (
+                    {/* {buttons.length > 0 && (
                       <div className='bg-gray-800 inline-block px-6 py-2 rounded-full text-white mt-6 sm:mt-10'>
                         <SliderButtons buttons={buttons} />
                       </div>
-                    )}
+                    )} */}
                   </div>
                 </div>
               </SwiperSlide>
