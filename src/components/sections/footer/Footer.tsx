@@ -108,13 +108,13 @@ const Footer = () => {
               className='transition duration-100 hover:scale-110 hover:bg-accent rounded-full'
             />
 
-            <SocialIcon
+            {/* <SocialIcon
               url={process.env.NEXT_PUBLIC_LINK_TELEGRAM}
               network='telegram'
               fgColor='white'
               bgColor='transparent'
               className='transition duration-100 hover:scale-110 hover:bg-accent rounded-full'
-            />
+            /> */}
           </div>
         </div>
       </div>

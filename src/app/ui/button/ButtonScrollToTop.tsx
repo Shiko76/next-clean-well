@@ -7,7 +7,6 @@ const ButtonScrollToTop: React.FC = () => {
 
   const handleScroll = (): void => {
     if (window.scrollY > 200) {
-      // Показывать кнопку после прокрутки на 200px
       setIsVisible(true)
     } else {
       setIsVisible(false)
