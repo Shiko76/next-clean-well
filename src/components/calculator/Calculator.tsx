@@ -53,7 +53,7 @@ const CleaningCalculator: React.FC = () => {
 
   return (
     <div
-      className='max-w-full lg:w-7xl mx-auto p-6 mb-8 md:mb-16'
+      className='max-w-full lg:w-7xl mx-auto p-6 mb-8 md:mb-16 text-black'
       id='calculator'>
       <h2 className='text-3xl font-bold mb-4 text-center'>Калькулятор уборки</h2>
 
