@@ -13,7 +13,7 @@ const ContactsMap: FC = () => {
           <div className='uppercase text-xs text-gray-600'>Адрес:</div>
           <div className='mb-2 md:mb-6 font-bold'>{process.env.NEXT_PUBLIC_ADDRESS}</div>
           <div className='uppercase text-xs text-gray-600'>Режим работы:</div>
-          <div className='font-bold'>Пн—Сб 08:00 – 18:00</div>
+          <div className='font-bold'>Пн—Сб 08:00 – 20:00</div>
           <Link
             href={`https://api.whatsapp.com/send/?phone=${process.env.NEXT_PUBLIC_PHONE_SHORT}`}
             className='w-56 mt-6 md:mt-10 p-3 bg-accent text-center text-white hover:bg-accent/70'>
