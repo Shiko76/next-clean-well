@@ -137,8 +137,9 @@ const CleaningCalculator: React.FC = () => {
               onChange={() => toggleExtraService(service as ExtraServiceType)}
               className='w-5 h-5'
             />
-            <span>
-              {service} ({prices.extraServices[service as ExtraServiceType]} ₸)
+            <span className='flex flex-col item-start justify-start mx-2'>
+              <span>{service} </span>    
+              <span className='text-xl font-bold'>{prices.extraServices[service as ExtraServiceType]} ₸</span>
             </span>
           </label>
         ))}
