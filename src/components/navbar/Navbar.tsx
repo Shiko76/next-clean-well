@@ -9,7 +9,7 @@ const Navbar: FC = () => {
   return (
     <>
       {/* Десктопное меню */}
-      <nav className='hidden gap-3 md:flex'>
+      <nav className='hidden gap-2 md:flex'>
         {menu.map(item => (
           <NavItem
             key={item.link}

@@ -13,6 +13,7 @@ export const menu: IMenuItem[] = [
     name: 'Отзывы',
     link: '/#reviews',
   },
+  {  name: 'Вакансии', link: '/vacancies' },
   {
     name: 'Контакты',
     link: '/#contacts',
