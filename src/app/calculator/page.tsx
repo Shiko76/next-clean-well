@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import CleaningCalculator from '@/components/calculator/Calculator'
 
 export const metadata: Metadata = {
-  title: 'Clean well | Калькулятор уборки, предварительный просчет',
-  description: 'Калькулятор уборки, предварительный просчет',
+  title: 'Clean well | Калькулятор уборки, предварительный расчет',
+  description: 'Калькулятор уборки, предварительный расчет',
 }
 
 export default function Page() {
